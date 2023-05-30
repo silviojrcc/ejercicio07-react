@@ -3,7 +3,7 @@ import EmpleadoAvatar from './EmpleadoAvatar';
 
 const Empleado = ({fullName, title, department, pic}) => {
     return (
-        <ListGroupItem className='d-flex align-items-center'>
+        <ListGroupItem className='d-flex align-items-center bg-dark text-light'>
             <EmpleadoAvatar pic={pic}></EmpleadoAvatar>
             <div className='mx-4'>
                 <h5>{fullName}</h5>

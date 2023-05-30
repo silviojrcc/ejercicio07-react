@@ -1,4 +1,11 @@
-
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 20, 20);
+    box-sizing: border-box;
+}
+  
 
 .main {
     max-width: 500px;
