@@ -4,7 +4,7 @@ import Empleado from "./Empleado";
 const EmpleadoList = () => {
 
     const empleados = [
-        { id: 1, fullName: "Laya Dueñas", title: "CEO", department: "Business", pic: "empleado01.png" },
+        { id: 1, fullName: "Laya Dueñas", title: "CEO", department: "Business", pic: "https://origamimag.com/wp-content/uploads/2020/05/pikachu11-2.jpg" },
         { id: 2, fullName: "Astryd Vallés", title: "CMO", department: "Marketing", pic: "empleado02.png" },
         { id: 3, fullName: "Shantell Meza", title: "CFO", department: "Business", pic: "empleado03.png" },
         { id: 4, fullName: "Sergio Ocampo", title: "CTO", department: "Engineering", pic: "empleado04.png" },
@@ -17,10 +17,9 @@ const EmpleadoList = () => {
 
     return (
         <ListGroup>
-            <Empleado></Empleado>
-            <Empleado></Empleado>
-            <Empleado></Empleado>
-            <Empleado></Empleado>
+            {empleados.map((empleado) => (
+                <Empleado key={empleado.id} fullName={empleado.fullName} title={empleado.title} department={empleado.department} pic={empleado.pic}></Empleado>
+            ))}
         </ListGroup>
     );
 };

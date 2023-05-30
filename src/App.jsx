@@ -8,6 +8,7 @@ function App() {
   return (
     <Container className='d-flex justify-content-center'>
       <div className='main my-5'>
+        <h1>Listado de empleados</h1>
         <EmpleadoList></EmpleadoList>
       </div>
     </Container>

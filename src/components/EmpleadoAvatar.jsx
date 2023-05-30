@@ -1,6 +1,6 @@
 import { Image } from "react-bootstrap";
 
-const EmpleadoAvatar = () => {
+const EmpleadoAvatar = ({pic}) => {
 
     const imageStyle = {
         borderRadius: "100%",
@@ -9,7 +9,7 @@ const EmpleadoAvatar = () => {
     }
 
     return (
-        <Image style={imageStyle} src="https://origamimag.com/wp-content/uploads/2020/05/pikachu11-2.jpg">
+        <Image style={imageStyle} src={pic}>
 
         </Image>
     );
