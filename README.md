@@ -2,7 +2,7 @@
 
 Este es el ejercicio número 7 del primer trabajo práctico de react de la escuela de programación [Rolling Code](https://rollingcodeschool.com/). Este ejercicio tiene como fin ver como podemos iterar sobre una lista estática y crear componentes mediante esta lista de empleados de una empresa.
 
-Podes ver la página haciendo click [aquí](https://ejercicio07-react-veterinaria.netlify.app/)
+Podes ver la página haciendo click [aquí](https://ejercicio07-react-empleados.netlify.app/)
 
 ## Tecnologías utilizadas
 - React: El framework de JavaScript utilizado para el desarrollo de la interfaz de usuario.
